@@ -32,7 +32,9 @@
 
 <div class="left-column">
 
-Ryan Williams
+# Ryan Williams
+
+## About Me
 
 Data Science Student
 
@@ -46,9 +48,9 @@ Welcome to my Data Science Studio portfolio.
 
 <div class="right-column">
     
-[Blog](blog.md)
+# [Blog](blog.md)
 
-[Projects](projects.md)
+# [Projects](projects.md)
 
 Projects
 
