@@ -1,21 +1,63 @@
-Ryan Williams
+<style>
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    gap: 40px;
+}
 
-Data Science Student
+.left-column {
+    padding: 40px;
+    border-right: 1px solid #ddd;
+}
 
-UNC Charlotte
+.right-column {
+    padding: 40px;
+}
 
-I am a 19 years old from New Jersey and I am a second year Data Science student at UNC Charlotte. 
+/* Mobile */
+@media (max-width: 768px) {
+    .two-column {
+        grid-template-columns: 1fr;
+    }
 
-Welcome to my Data Science Studio portfolio
+    .left-column {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+}
+</style>
+
+<div class="two-column">
+
+<div class="left-column">
+
+# Ryan Williams
+
+### Data Science Student
+
+**UNC Charlotte**
+
+I am 19 years old from New Jersey and I am a second-year Data Science student at UNC Charlotte.
+
+Welcome to my Data Science Studio portfolio.
 
 [Blog](blog.md)
+
 [Projects](projects.md)
 
-Projects
+</div>
+
+<div class="right-column">
+
+# Projects
 
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 
-Project 1
+## Project 1
 
 Coming soon.
 
+</div>
+
+</div>
