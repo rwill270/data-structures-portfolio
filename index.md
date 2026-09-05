@@ -1,5 +1,5 @@
 <style> .two-column { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; gap: 0; } .left-column { padding: 60px 50px; background-color: #f5f5f5; border-right: 1px solid #ddd; } .right-column { padding: 60px 50px; background-color: #ffffff; } /* Mobile-friendly layout */ @media (max-width: 768px) { .two-column { grid-template-columns: 1fr; } .left-column { border-right: none; border-bottom: 1px solid #ddd; } } </style> <div class="two-column"> <div class="left-column">
-# About Me
+# <p> About Me </p>
 
 <p> Ryan Williams </p>
 
@@ -13,7 +13,7 @@
 
 </div> <div class="right-column">
   
-# My Work 
+# <p> My Work </p>
 
 ## <p> Blog </p>
 
