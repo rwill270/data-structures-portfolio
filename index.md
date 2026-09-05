@@ -1,41 +1,6 @@
-<style>
-.two-column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 100vh;
-    gap: 40px;
-}
-
-.left-column {
-    padding: 40px;
-    border-right: 1px solid #ddd;
-}
-
-.right-column {
-    padding: 40px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    .two-column {
-        grid-template-columns: 1fr;
-    }
-
-    .left-column {
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-    }
-}
-</style>
-
-<div class="two-column">
-
-<div class="left-column">
-
-# Ryan Williams
-
-## About Me
-
+<style> .two-column { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; gap: 0; } .left-column { padding: 60px 50px; background-color: #f5f5f5; border-right: 1px solid #ddd; } .right-column { padding: 60px 50px; background-color: #ffffff; } /* Mobile-friendly layout */ @media (max-width: 768px) { .two-column { grid-template-columns: 1fr; } .left-column { border-right: none; border-bottom: 1px solid #ddd; } } </style> <div class="two-column"> <div class="left-column">
+About Me
+Ryan Williams
 Data Science Student
 
 UNC Charlotte
@@ -44,13 +9,13 @@ I am 19 years old from New Jersey and I am a second-year Data Science student at
 
 Welcome to my Data Science Studio portfolio.
 
-</div>
+</div> <div class="right-column">
+My Work
+Blog
 
-<div class="right-column">
-    
-# [Blog](blog.md)
+Read about my experiences, thoughts, and what I am learning throughout my journey in Data Science.
 
-# [Projects](projects.md)
+Visit My Blog →
 
 Projects
 
@@ -60,6 +25,6 @@ Project 1
 
 Coming soon.
 
-</div>
+View My Projects →
 
-</div>
+</div> </div>
