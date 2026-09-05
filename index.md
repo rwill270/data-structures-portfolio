@@ -32,29 +32,29 @@
 
 <div class="left-column">
 
-# Ryan Williams
+Ryan Williams
 
-### Data Science Student
+Data Science Student
 
-**UNC Charlotte**
+UNC Charlotte
 
 I am 19 years old from New Jersey and I am a second-year Data Science student at UNC Charlotte.
 
 Welcome to my Data Science Studio portfolio.
 
+</div>
+
+<div class="right-column">
+    
 [Blog](blog.md)
 
 [Projects](projects.md)
 
-</div>
-
-<div class="right-column">
-
-# Projects
+Projects
 
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 
-## Project 1
+Project 1
 
 Coming soon.
 
