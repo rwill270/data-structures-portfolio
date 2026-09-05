@@ -3,11 +3,11 @@ About Me
 Ryan Williams
 Data Science Student
 
-UNC Charlotte
+<p> UNC Charlotte </p>
 
-I am 19 years old from New Jersey and I am a second-year Data Science student at UNC Charlotte.
+<p> I am 19 years old from New Jersey and I am a second-year Data Science student at UNC Charlotte. </p>  
 
-Welcome to my Data Science Studio portfolio.
+<p> Welcome to my Data Science Studio portfolio. </p>
 
 </div> <div class="right-column">
 My Work
