@@ -1,4 +1,3 @@
-<style> .two-column { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; gap: 0; } .left-column { padding: 60px 50px; background-color: #f5f5f5; border-right: 1px solid #ddd; } .right-column { padding: 60px 50px; background-color: #ffffff; } </style> <div class="two-column"> <div class="left-column">
 # Ryan Williams
 Data Science Student
 
