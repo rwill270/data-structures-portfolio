@@ -1,3 +1,5 @@
+[Back to Home Page](index.md)
+
 # Projects
 
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
