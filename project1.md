@@ -1,3 +1,7 @@
+[Back to Projects](projects.md)
+
+[Back to Main Page](index.md)
+
 # How does rest and accumulated player fatigue affect individual player performance in the NBA?
 
 ### Background
