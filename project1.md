@@ -688,3 +688,8 @@ plt.show()
 
 <img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/d60b37e7-c27c-4ad0-b472-2461bbfa3bee" />
 
+
+##  Summary
+
+As it turns out, the general idea of stats and predictions does not always shape up what it comes out to be. There are always other factors that come into play when it comes to data science. A player's performance does not always formulate from distance traveled, time zones crossed, whether they are playing home or away, or whether they are fatigued or not. 
+
