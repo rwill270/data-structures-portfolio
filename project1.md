@@ -367,4 +367,313 @@ plt.show()
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/9fa5d81b-ad17-4a0f-aa66-e46abf948bc4" />
 
 
-# 
+# How big of a difference does travel distance have on home games vs away games?
+
+For this last graph, I computed the opposite of the previous graph above. I found all of the home games for Jalen Brunson in the 2025-2026 season and see how his performance changes. Considering these are home games and that there is no distance traveled to the games, you would think that his performance should raise. Among all of the home games he played in that season, his average field goal percentage was 46.9%. This percentage ranks 3rd out of 4 when comparing them to other stats from the central, mountain and pacific time zones. He shot better in pacific and central cities but worse in the mountain time zone. 
+
+
+<img width="350" height="1074" alt="image" src="https://github.com/user-attachments/assets/fe6d4f7a-c3ac-4cd8-9055-4796222ade49" />
+
+data = {
+
+    "Games": [
+    
+        "1 ",
+        
+        "2 ",
+        
+        "3 ",
+        
+        "4 ",
+        
+        "5 ",
+        
+        "6 ",
+        
+        "7 ",
+        
+        "8 ",
+        
+        "9 ",
+        
+        "10 ",
+        
+        "11 ",
+        
+        "12 ",
+        
+        "13 ",
+        
+        "14 ",
+        
+        "15 ",
+        
+        "16",
+        
+        "17",
+        
+        "18",
+        
+        "19",
+        
+        "20",
+        
+        "21",
+        
+        "22",
+        
+        "23",
+        
+        "24",
+        
+        "25",
+        
+        "26",
+        
+        "27",
+        
+        "28",
+        
+        "29",
+        
+        "30",
+        
+        "31",
+        
+        "32",
+        
+        "33",
+        
+        "34",
+        
+        "35",
+        
+        "36",
+        
+    ],
+    
+    "Opponent": [
+    
+        "Cavaliers",
+        
+        "Celtics",
+        
+        "Bulls",
+        
+        "Wizards",
+        
+        "Timberwolves",
+        
+        "Nets",
+        
+        "Grizzlies",
+        
+        "Magic",
+        
+        "Bucks",
+        
+        "Raptors",
+        
+        "Hornets",
+        
+        "Jazz",
+        
+        "Magic",
+        
+        "76ers",
+        
+        "Heat",
+        
+        "Cavaliers",
+        
+        "Hawks",
+        
+        "76ers",
+        
+        "Clippers",
+        
+        "Mavericks",
+        
+        "Nets",
+        
+        "Kings",
+        
+        "Trail Blazers",
+        
+        "Lakers",
+        
+        "Nuggets",
+        
+        "Pacers",
+        
+        "Pistons",
+        
+        "Rockets",
+        
+        "Spurs",
+        
+        "Thunder",
+        
+        "Warriors",
+        
+        "Wizards",
+        
+        "Pelicans",
+        
+        "Bulls",
+        
+        "Celtics",
+        
+        "Raptors",
+        
+    ],
+    
+    "FG_Pct": [
+    
+        27.8,
+        
+        50.0,
+        
+        45.5,
+        
+        35.3,
+        
+        45.0,
+        
+        42.9,
+        
+        57.9,
+        
+        43.5,
+        
+        57.1,
+        
+        31.6,
+        
+        56.3,
+        
+        52.9,
+        
+        43.5,
+        
+        31.8,
+        
+        57.7,
+        
+        40.0,
+        
+        43.5,
+        
+        47.6,
+        
+        75.0,
+        
+        37.5,
+        
+        47.1,
+        
+        52.9,
+        
+        40.0,
+        
+        26.7,
+        
+        51.9,
+        
+        48.4,
+        
+        60.0,
+        
+        50.0,
+        
+        43.8,
+        
+        27.8,
+        
+        45.0,
+        
+        47.4,
+        
+        57.9,
+        
+        46.2,
+        
+        52.6,
+        
+        66.7,
+        
+    ],
+    
+}
+
+df = pd.DataFrame(data)
+
+fig, ax = plt.subplots(figsize=(8, 6))
+
+sns.boxplot(
+
+    data=df,
+    
+    y="FG_Pct",
+    
+    width=0.3,
+    
+    ax=ax,
+    
+    boxprops=dict(alpha=0.7),
+    
+)
+
+sns.stripplot(
+
+    data=df,
+    
+    y="FG_Pct",
+    
+    size=8,
+    
+    jitter=0.15,
+    
+    ax=ax,
+    
+)
+
+mean_fg = df["FG_Pct"].mean()
+
+ax.axhline(
+
+    mean_fg,
+    
+    color="black",
+    
+    linewidth=1.5,
+    
+    label=f"Mean FG%: {mean_fg:.1f}%",
+    
+)
+
+ax.set_title(
+
+    "Jalen Brunson FG% Distribution — Home Games (2025–26)",
+    
+    fontsize=14,
+    
+    fontweight="bold",
+    
+    pad=15,
+    
+)
+
+ax.set_ylabel("Field Goal Percentage (%)", fontsize=12)
+
+ax.set_ylim(20, 80)
+
+ax.legend(loc="upper right")
+
+plt.tight_layout()
+
+plt.show()
+
+
+<img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/d60b37e7-c27c-4ad0-b472-2461bbfa3bee" />
+
