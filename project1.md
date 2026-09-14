@@ -40,6 +40,15 @@ This project uses publicly available data. The analysis will not claim that trav
 ### Code and AI Transparency
 I computed and made the graphs myself in Python but I used ChatGPT to understand why some of the findings came out to be. 
 
+### Sources
+
+“Pubmed.Ncbi.Nlm.Nih.Gov.” National Center for Biotechnology Information, U.S. National Library of Medicine, pubmed.ncbi.nlm.nih.gov/9381060/. Accessed 13 Sept. 2026. 
+
+Leota, Josh, et al. “Eastward Jet Lag Is Associated with Impaired Performance and Game Outcome in the National Basketball Association.” Frontiers in Physiology, U.S. National Library of Medicine, 16 June 2022, pmc.ncbi.nlm.nih.gov/articles/PMC9245584/. 
+
+“Pubmed.Ncbi.Nlm.Nih.Gov.” National Center for Biotechnology Information, U.S. National Library of Medicine, pubmed.ncbi.nlm.nih.gov/32172667/. Accessed 13 Sept. 2026. 
+
+
 # Field Goal Percentage and Fatigue Level (Back to Back Games)
 
 I took all of the back-to-back games that the New York Knicks played during the 2024-2025 season and made a bar chart showing Jalen Brunson's field goal percentages to see if fatigue affects performance. Back-to-back games are games played on consecutive nights without a break, which turned out to be 10 sets of games (20 games total). The general idea of fatigue would say that a player is more likely to perform better on night one of a back-to-back considering the player is coming off more rest. For Jalen Brunson specifically, it turns out that 7 of the 10 sets of back-to-back games, he had a higher shooting percentage. He averaged roughly 46% in the first games and 53% in the second games. One way you could look at this is by determining that fatigue doesn't affect star players the same way it does to average players in the NBA. Star players like Brunson can get into rhythm as well as identifying coaching changes better and faster than average players, which can ultimately lead to fatigue changes. 
