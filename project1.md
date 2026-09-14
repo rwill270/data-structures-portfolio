@@ -2,6 +2,8 @@
 
 [Back to Main Page](index.md)
 
+[Jupyter Notebook](Ryan Williams - Portfolio Project One.ipynb)
+
 # How does rest and accumulated player fatigue affect individual player performance in the NBA?
 
 ### Background
