@@ -2,8 +2,9 @@
 
 [Back to Main Page](index.md)
 
-[Notebook](Ryan%20Williams%20-%20Portfolio%20Project%20One.ipynb)
+[Jupyter Notebook](Ryan%20Williams%20-%20Portfolio%20Project%20One.ipynb)
 
+[Excel Spreadsheet](./nba_stats_performance.xlsx)
 
 # How does rest and accumulated player fatigue affect individual player performance in the NBA?
 
