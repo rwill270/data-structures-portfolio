@@ -52,7 +52,7 @@ By comparing the random forest classification model to these baselines, we can p
 
 ### Model Development and Comparison
 
-
+Comparing predictions showcases that linear assumptions hold versus where tree-based decision boundaries split the data better. If random forest outperforms logistic regression, that means that year-over-year WR rank tiers depend on non-linear starts rather than simple linear scoring. If both perform identically, logistic regression is preferred for its simplicity and direct interpretability.
 
 ### Model Evaluation
 
