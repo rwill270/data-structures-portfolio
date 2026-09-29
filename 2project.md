@@ -12,4 +12,6 @@ This project examines whether previous-season production from NFL wide receivers
 
 ### Dataset
 
+The data will be obtained from NFL player statistics, primarily using Pro Football Reference data available online. The dataset will cover the 2025 NFL season, resulting in 10 player observations after the data is cleaned.
+
 The data will be obtained from NFL player statistics, primarily using Pro Football Reference data available online. The dataset will cover the 2025 NFL season, resulting in approximately 10 player observations after the data is cleaned. The target variable is next-season receiving yards, defined as the total number of receiving yards recorded by the player during the regular season following the season used to calculate the predictor variables. This is a regression problem because the target variable, next-season receiving yards, is a continuous numerical value. The model is not predicting a category such as "high performer" or "low performer." 
