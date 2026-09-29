@@ -44,4 +44,28 @@ Based off of the 2025 statistics for the 10 selected players to predict rankings
 
 ### Training and Testing Strategy
 
+For validation, I evaluated my data by 5-fold cross-validation, splitting my data into 5 equal parts to see how well the model will perform. For data leakage, the model did not use any other information outside the predictor variables, and only stuck to the 2025 season's stats.
+
+### Baseline Performance
+
+By comparing the random forest classification model to these baselines, we can prove that combining multiple stats including yards, catches, and touchdowns, gives a much more reliable prediction than just copying last season's stats or making a guess! A random guess baseline would only correctly guess the exact rank of each player about 10% of the time.
+
+### Model Development and Comparison
+
+
+
+### Model Evaluation
+
+Evaluation: the random forest classifier model successfully assigned discrete tiers based on rank. By gathering individual tree decisions, the model constructed single-variable peaks, far better than a single decision tree. 
+
+### Model Interpretation
+
+The resulting 10 mini-box model grid formats each receiver's predicted rank output (1 - 10) alongside their underlying 2025 statistical values (Yds, TDs, Rec). Receiving yards was the highest importance weight at 50%, as it is the primary driver for ranks. Both touchdowns and receptions are equally tied at 25% importance weight, as they are equally important but measure different player values.
+
+### Ethics and Limitations
+
+Relying solely on machine learning outputs for sports predictions, gambling, coaching, drafting, etc... carries much risk due to the high variance in modern football. Of course there will always be some uncaptured variables in a dataset like this one as the feature set does not account for quarterback changes, coaching changes, injuries, or age degradation. Also, the model's sample size of 10 is perfect because the goal of this study is to predict the top-tier elite wide receivers in the NFL; anything more than 10 will be irrelevant to the findings of the research question.
+
+### Code and AI Transparency
+
 
