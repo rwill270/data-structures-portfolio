@@ -28,4 +28,20 @@ APA Citations
 
 ### Data Preparation
 
+No estimated values were needed as I verified and computed all the data needed for my variables and research question. For categorical encoding, the target variable rank was formatted as an ordinal discrete integer ranged 1-10. In terms of feature scaling, raw numeric values were kept for everyone to interpret directly inside the model's display.
+
+### Data Understanding and Feature Selection
+
+I took 3 independent variables (receiving yards, touchdowns, and receptions) and gave them different weights, judging by how important each statistic is, to find my projected rankings for 2026. These three statistics are the top 3 most important features to measure success for a wide receiver, as receiving yards establish player production, touchdowns measure scoring, and receptions measure value and opportunity for each player.
+
+- Receiving yards: 50% weight (most important stat). Ranged from 1,077 to 1,793 yards.
+
+- Touchdowns: 25% weight. Ranged from 3 to 11 touchdowns.
+
+- Receptions: 25% weight. Ranged from 65 to 129 catches.
+
+Based off of the 2025 statistics for the 10 selected players to predict rankings, there is a strong positive correlation between receiving yards and receptions, whereas touchdowns show a higher variance. Some players can record a lot of yards and catches but not a lot of touchdowns, and vice versa. 
+
+### Training and Testing Strategy
+
 
