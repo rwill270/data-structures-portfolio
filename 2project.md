@@ -18,4 +18,14 @@ The data will be obtained from NFL player statistics, primarily using Pro Footba
 
 Being able to estimate a player's future receiving production can provide useful information for sports analysts, fantasy football players, coaches, scouts, and other people interested in evaluating player performance. 
 
-[2025 NFL Receiving | Pro-Football-Reference.Com, www.pro-football-reference.com/years/2025/receiving.htm. Accessed 29 Sept. 2026.](https://www.pro-football-reference.com/years/2025/receiving.htm))
+APA Citations
+
+- [2025 NFL Receiving | Pro-Football-Reference.Com, www.pro-football-reference.com/years/2025/receiving.htm. Accessed 29 Sept. 2026.](https://www.pro-football-reference.com/years/2025/receiving.htm))
+  
+- [staff, Fantasy, and Multiple Authors. “Fantasy Football Draft Rankings 2026: Wide Receiver.” ESPN, ESPN Internet Ventures, www.espn.com/fantasy/football/story/_/page/FFPreseasonRank26WR/nfl-fantasy-football-draft-rankings-2026-wr-wide-receiver. Accessed 28 Sept. 2026.](https://www.espn.com/fantasy/football/story/_/page/FFPreseasonRank26WR/nfl-fantasy-football-draft-rankings-2026-wr-wide-receiver))
+
+- [“NFL Wide Receiver Stats.” SumerSports, sumersports.com/players/wide-receiver/?season=2025. Accessed 28 Sept. 2026. ](https://sumersports.com/players/wide-receiver/?season=2025))
+
+### Data Preparation
+
+
