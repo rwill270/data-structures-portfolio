@@ -68,4 +68,4 @@ Relying solely on machine learning outputs for sports predictions, gambling, coa
 
 ### Code and AI Transparency
 
-
+I computed and made the models myself in Python but I used Gemini to help me with displaying the visualizations into rows and columns, as well as to interpret some of the results and why some of the findings came out to be.
