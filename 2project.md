@@ -2,7 +2,7 @@
 
 [Back to Main Page](index.md)
 
-[Jupyter Notebook](Ryan%20Williams%20-%20Portfolio%20Project%20One.ipynb)
+[Jupyter Notebook](Ryan%20Williams%20-%20Portfolio%20Project%20Two.ipynb)
 
 # How accurately can a previous-season's statistics predict an NFL wide receiver's performance in the following regular season?
 
