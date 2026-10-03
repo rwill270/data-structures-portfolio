@@ -12,7 +12,7 @@ This project examines whether previous-season production from NFL wide receivers
 
 ### Machine-Learning Problem and Dataset
 
-The data will be obtained from NFL player statistics, primarily using Pro Football Reference data available online. The dataset will cover the 2025 NFL season, resulting in 10 player observations after the data is cleaned. The target variable is the rankings, defined as the player's predicted positional finish ranged 1-10. The unit of analysis is an individual NFL wide receiver season given the variables. The data will be mixed with receiving yards, touchdowns, and receptions from the top 10 best wide receivers from the 2025 season. The first visualization will be a multi-class classification model using RandomForestClassifier in Python. It is classification because the target variable (Rank) represents a discrete, categorical class label (ordered integers 1 through 10) representing a receiver's positional rank tier, rather than a continuous numeric outcome. There are 0 missing values as the dataset is complete across all top 10 qualifying candidates.
+The data will be obtained from NFL player statistics, primarily using Pro Football Reference data available online. The dataset will cover the 2025 NFL season, resulting in 10 player observations after the data is cleaned. The target variable is the rankings, defined as the player's predicted positional finish ranged 1-10. The unit of analysis is an individual NFL wide receiver season given the variables. The data will be mixed with receiving yards, touchdowns, and receptions from the top 10 best wide receivers from the 2025 season. The first visualization will be a multi-class classification model using RandomForestClassifier in Python. It is classification because the target variable (Rank) represents a discrete, categorical class label (ordered integers 1 through 10) representing a receiver's positional rank tier, rather than a continuous numeric outcome. There are 0 missing values as the dataset is complete across all top 10 qualifying candidates. The second visualization will be a random forest regression model , as the target variables are to predict the 2026 top ten wide receivers by receiving yards, touchdowns, and receptions (numerical values)
 
 ### Context and Supporting Research
 
@@ -28,11 +28,11 @@ APA Citations
 
 ### Data Preparation
 
-No estimated values were needed as I verified and computed all the data needed for my variables and research question. For categorical encoding, the target variable rank was formatted as an ordinal discrete integer ranged 1-10. In terms of feature scaling, raw numeric values were kept for everyone to interpret directly inside the model's display.
+No estimated values were needed as I verified and computed all the data needed for my variables and research question. For categorical encoding, the target variable rank was formatted as an ordinal discrete integer ranged 1-10. In terms of feature scaling, raw numeric values were kept for everyone to interpret directly inside the model's display. 
 
 ### Data Understanding and Feature Selection
 
-I took 3 independent variables (receiving yards, touchdowns, and receptions) and gave them different weights, judging by how important each statistic is, to find my projected rankings for 2026. These three statistics are the top 3 most important features to measure success for a wide receiver, as receiving yards establish player production, touchdowns measure scoring, and receptions measure value and opportunity for each player.
+I took 3 independent variables (receiving yards, touchdowns, and receptions) and gave them different weights, judging by how important each statistic is, to find my projected rankings for 2026. These three statistics are the top 3 most important features to measure success for a wide receiver, as receiving yards establish player production, touchdowns measure scoring, and receptions measure value and opportunity for each player. 
 
 - Receiving yards: 50% weight (most important stat). Ranged from 1,077 to 1,793 yards.
 
@@ -40,7 +40,7 @@ I took 3 independent variables (receiving yards, touchdowns, and receptions) and
 
 - Receptions: 25% weight. Ranged from 65 to 129 catches.
 
-Based off of the 2025 statistics for the 10 selected players to predict rankings, there is a strong positive correlation between receiving yards and receptions, whereas touchdowns show a higher variance. Some players can record a lot of yards and catches but not a lot of touchdowns, and vice versa. 
+Based off of the 2025 statistics for the 10 selected players to predict rankings, there is a strong positive correlation between receiving yards and receptions, whereas touchdowns show a higher variance. Some players can record a lot of yards and catches but not a lot of touchdowns, and vice versa. For the second visualization, both the independent and dependent variables are the same. I took the ten best wide receivers from each of the past 5 seasons (2021-2025) to predict the top ten wide receivers for the 2026 season, each by receiving yards leaders, touchdowns leaders, and receptions leaders.
 
 ### Training and Testing Strategy
 
@@ -56,11 +56,11 @@ Comparing predictions showcases that linear assumptions hold versus where tree-b
 
 ### Model Evaluation
 
-Evaluation: the random forest classifier model successfully assigned discrete tiers based on rank. By gathering individual tree decisions, the model constructed single-variable peaks, far better than a single decision tree. 
+Evaluation: the random forest classifier model successfully assigned discrete tiers based on rank. By gathering individual tree decisions, the model constructed single-variable peaks, far better than a single decision tree. The random forest regressor also successfully assigned numerical values (yards, touchdowns, and catches).
 
 ### Model Interpretation
 
-The resulting 10 mini-box model grid formats each receiver's predicted rank output (1 - 10) alongside their underlying 2025 statistical values (Yds, TDs, Rec). Receiving yards was the highest importance weight at 50%, as it is the primary driver for ranks. Both touchdowns and receptions are equally tied at 25% importance weight, as they are equally important but measure different player values.
+The resulting 10 mini-box model grid formats each receiver's predicted rank output (1 - 10) alongside their underlying 2025 statistical values (Yds, TDs, Rec). For both models, receiving yards was the highest importance weight at 50%, as it is the primary driver for ranks. Both touchdowns and receptions are equally tied at 25% importance weight, as they are equally important but measure different player values. 
 
 ### Ethics and Limitations
 
@@ -68,7 +68,7 @@ Relying solely on machine learning outputs for sports predictions, gambling, coa
 
 ### Code and AI Transparency
 
-I computed and made the models myself in Python but I used Gemini to help me with displaying the visualizations into rows and columns, as well as to interpret some of the results and why some of the findings came out to be.
+I computed and made the models myself in Python but I used Gemini to help me with displaying the visualizations exactly how I wanted them to look like, including making rows and columns, font, color, as well as to interpret some of the results and why some of the findings came out to be.
 
 
 ## Visualization 1: 2026 NFL Predicted Wide Receiver Rankings (Classification)
@@ -425,3 +425,5 @@ plt.tight_layout()
 plt.show()
 
 <img width="1784" height="723" alt="image" src="https://github.com/user-attachments/assets/5ee725e3-2186-4dc9-b5f3-efa66ece12eb" />
+
+
